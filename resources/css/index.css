@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+div {
+	background-color: honeydew; 
+	color: chocolate; 
+	width: 200px; 
+	height: 100px; 
+	margin: 20px; 
+	padding: 20px; 
+	border-bottom: #E5E5E5 thick solid; 
+	border-right: #E5E5E5 thick solid; 
+	float: left;
+	
+}
+
