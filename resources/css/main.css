@@ -57,3 +57,18 @@ background-color: white;
 	margin-top: 20px; 
 }
 	
+.box {
+	background-color: white; 
+	color: black; 
+	width: 32%; 
+	height: auto;   
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 10px; 
+	margin-right:20px;
+	font-size: 1.5em; 
+	border-bottom: #E5E5E5 thick solid; 
+	border-right: #E5E5E5 thick solid; 
+	float: left;
+	text-align: center; 
+}
