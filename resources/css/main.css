@@ -9,6 +9,10 @@ body {
 	background-color: lightgray;
 }
 
+li { 
+line-height: 1.5; 
+}
+
 div.scrollmenu {
   background-color: #333;
   overflow: auto;
@@ -27,3 +31,29 @@ div.scrollmenu a:hover {
   background-color: #777;
 }
 
+.container {
+	background-color: #FFFFFF; 
+	padding: 20px; 
+	margin-top: 10px; 
+}
+
+.container-8 {
+background-color: white;
+  padding: 20px;
+	margin-right: 20px; 
+
+}
+
+.container-4 {
+	background-color: white;
+  padding: 20px;
+	
+	
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+	margin-top: 20px; 
+}
+	
