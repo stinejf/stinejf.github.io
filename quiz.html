@@ -5,7 +5,7 @@
 	<title>Heim</title>
 	<link rel="stylesheet" href="resources/css/index.css">
 	<link rel="stylesheet" href="resources/css/main.css">
-<script src="resources/js/quiz.js"></script>
+	<script src="resources/js/quiz.js"></script>
 
 </head>
 
@@ -19,14 +19,26 @@
   
 	</div>
 	<div class="container" style="text-align: center;">
-        <h1>Quiz</h1>
-        <p>Prøv ut denne quizen min!</p>
-        <button onclick="startQuiz();" style="font-size: 20px; background-color: #013b3b; color:white; padding:20px 40px 20px 40px;">Start quiz</button>
+		<h1>Quiz</h1>
+		<div id="hideWhenActive">
+			<p>Prøv ut denne quizen min!</p>
+			<button id="buttonQuiz" onclick="startQuiz();" style="font-size: 20px; background-color: #013b3b; color:white; padding:20px 40px 20px 40px;">Start quiz</button>
+		</div>
+        
 		
 	</div>
 	<div style="min-height: 500px;text-align: center;">
-		<p id="svar"></p>
+		<div id="question1" style="display:none;">
+				<label id="labelQuestion"></label>	<br>
+				Svar: <input type="text" id="svar1"></input>
+				<button onclick="loadAnswer('svar1');">Sjekk svar</button>
+				<h1 id="rettgalt"></h1>
+		</div>
+		<div id="nextquestion" style="display: none;">
+			<button id="next" onclick="loadNewQuestion();" >Neste spørsmål</button>
+		</div>
 	</div>
+
 	<footer>
 		<p>&#169; 2020 Stine Jonassen Føyen </p>
 	</footer>	
