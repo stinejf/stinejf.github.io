@@ -52,6 +52,7 @@ function trueOrFalse(svar) {
 }
 
 function loadNewQuestion() {
+    document.getElementById("nextquestion").style.display = "none";
     document.getElementById("labelQuestion").innerHTML = "";
     document.getElementById("hideWhenActive").style.display = "none"; 
     document.getElementById("question1").style.display = "block"; 
