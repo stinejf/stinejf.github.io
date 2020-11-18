@@ -70,6 +70,12 @@ background-color: white;
   grid-template-columns: auto auto;
 	margin-top: 20px; 
 }
+
+.grid-container-8 {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+	  margin-top: 20px; 
+  }
 	
 .box {
 	background-color: white; 
