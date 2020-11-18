@@ -1,13 +1,19 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
 	<link rel="stylesheet" href="resources/css/main.css">
-<title>Teknologiforståelse</title>
-		<style>
-
-			
-</style>
+	<title>Teknologiforståelse</title>
+	<style>
+		.grid-container {
+		  display: grid;
+		  grid-template-columns: auto auto auto;
+		  padding: 5px;
+		}
+		.grid-item {
+		  padding: 0px;
+		}
+		</style>
 </head>
 
 <body>
@@ -21,20 +27,66 @@
 	</div>
 	<div class="container">
 		<h1>Teknologiforståelse</h1>
-		<ul> 
-			<li> <a href="#personvern">1 Personvern </a></li>
-			<li> <a href="#personloven">2 Personopplysningsloven </a></li>
-			<li> <a href="https://www.datatilsynet.no/" target="_blank">Datatilsynet (ekstern lenke)</a> </li>
-		</ul>
+
+		<div class="grid-container">
+			<div class="grid-item">
+				<ul> 
+					<li> <a href="#regelverk">Regelverk og etikk </a></li>
+						<ul>
+							<li> <a href="#personvern">Personvern</a></li>
+							<li> <a href="#personloven">Personopplysningsloven </a></li>
+							<li> <a href="https://www.datatilsynet.no/" target="_blank">Datatilsynet (ekstern lenke)</a> </li>
+						</ul>
+					
+				</ul>
+			</div>
+			<div class="grid-item">
+				<ul> 
+					<li> <a href="#regelverk">Digital kommunikasjon</a></li>
+						<ul>
+							<li> <a href="#personvern"></a></li>
+							<li> <a href="#personloven"> </a></li>
+							<li> <a href="https://www.datatilsynet.no/" target="_blank"></a> </li>
+						</ul>
+					
+				</ul>
+			</div>
+			<div class="grid-item">	
+				<ul> 
+					<li> <a href="#regelverk">Digital teknologi</a></li>
+						<ul>
+							<li> <a href="#personvern"></a></li>
+							<li> <a href="#personloven"> </a></li>
+							<li> <a href="https://www.datatilsynet.no/" target="_blank"></a> </li>
+						</ul>
+				
+				</ul>
+			</div>  
+			<div class="grid-item">	
+				<ul> 
+					<li> <a href="#regelverk">Praktisk IT</a></li>
+						<ul>
+							<li> <a href="#personvern"></a></li>
+							<li> <a href="#personloven"> </a></li>
+							<li> <a href="https://www.datatilsynet.no/" target="_blank"></a> </li>
+						</ul>
+				
+				</ul>
+			</div>  
+		  </div>
+		
+			
+	
+		
 	</div>
 	<div class="grid-container">
 		<div>
 		<div>
-			<h2 style="margin: 0px; margin-right:20px; padding-top:20px; padding-bottom:20px; padding-left:20px; background-color:#4f4f4f; color:white;  ">Emner i faget:</h2>			
+			<h2 class="headercontainer">Emner i faget:</h2>			
 
 		</div>
 		<div class="container-8" style="border: 1px solid rgb(229, 228, 225); color: #353533;">
-			<h1>Regelverk og etikk</h1>
+			<h1 id="regelverk">Regelverk og etikk</h1>
 			<h2 id="personvern">Personvern</h2>
 			<p>Vi har alle rett til privatliv og kontroll over egne personopplysninger. Disse rettighetene er nedfelt i Grunnloven, menneskerettskonvensjonen og EUs personvernforordning (GDPR). Innen IT- og medie-feltet håndterer vi andres personopplysninger. Da må vi ha god styring på hva som er lov og ikke.
 				</p>
@@ -47,7 +99,7 @@
 	</div>
 		<div >
 			<div>
-				<h2 style="margin: 0px; padding-top:20px; padding-bottom:20px; padding-left:20px; background-color:#4f4f4f; color:white;  ">Kompetansemål:</h2>
+				<h2 class="headercontainer">Kompetansemål</h2>
 
 			</div>
 			<div class="container-4" style=" border: 1px solid rgb(229, 228, 225); color:#353533; ">
@@ -55,43 +107,35 @@
 					<h3>Mål for opplæringen er at eleven skal kunne </h3>
 					<ul>
 						<li> planlegge og gjennomføre sanntidsproduksjoner</li>
-						<hr style="border-top:1px solid lightskyblue;">
+						<hr>						
 						<li>reflektere over og beskrive hvordan media <br> påvirker mennesker og deres medievaner</li>
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>
 						<li>kjenne til og anvende bransjefaglige metoder <br> og relevant utstyr i produksjon</li>
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>
 						<li>beskrive, utforske og konfigurere datanettverk <br> med egne subnett</li>
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>		
 						<li>administrere brukerenheter og koble dem <br> til sentrale administrasjonsplattformer</li>				
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>		
 						<li>utforske og beskrive hvordan teknologi kan <br> formidle nye uttrykk og gi nye opplevelser</li>
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>		
 						<li>gjøre rede for hvordan hensynet til bærekraft <br> påvirker anskaffelse, drift og avhending av utstyr og materiell</li>
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>		
 						<li>gjennomføre og dokumentere arbeid i tråd med  <br>gjeldende bestemmelser for helse, miljø og sikkerhet</li>
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>		
 						<li>gjøre rede for hvordan internett fungerer, <br> og hvordan det blir brukt til kommunikasjon og lagring</li>
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>		
 						<li>utforske og beskrive digitale trusler, <br> verdier og sårbarheter i samfunnet</li>
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>		
 						<li>gjøre rede for hvordan man behandler informasjon <br> og personopplysninger i tråd med gjeldende regelverk</li>
-						<hr style="border-top:1px solid lightskyblue;">
-		
+						<hr>		
 						<li>vurdere, anbefale og kvalitetssikre tiltak som <br> reduserer risiko for uønsket spredning av data</li>
 					</ul>
 			</div>
 			
 		</div>
 	</div>
-	
+	<footer >
+		<p>&#169; 2020 Stine Jonassen Føyen </p>
+	</footer>
 </body>
 </html>
