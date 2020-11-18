@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 		<link rel="stylesheet" href="resources/css/main.css">
-
 <title>Konseptutvikling og programmering</title>
 </head>
 
@@ -20,7 +19,7 @@
 	<div class="container">
 		<h1>Konseptutvikling og programmering</h1>
 	
-	
+		<img src="resources/images/snowball2.png" id="snowball" height="200px">
 	<div class="grid-container-8">
 		<div class="grid-item">
 			<a href="quiz.html">
@@ -105,5 +104,19 @@
 	<footer>
 		<p>&#169; 2020 Stine Jonassen Føyen </p>
 	</footer>
+	<script>
+	var snowball = document.getElementById("snowball");
+	console.log(snowball);
+	snowball.animate([
+		{transform: "rotate(0deg)", marginLeft:"10px"},
+		{transform: "rotate(360deg)", marginLeft: "500px"}
+	], {
+		duration: 10000,
+		direction: "alternate",
+		iterations: Infinity,
+		easing: "ease-in-out"
+	}); 
+	
+	</script>
 </body>
 </html>
