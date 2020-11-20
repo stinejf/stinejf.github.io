@@ -80,6 +80,11 @@ background-color: white;
 .grid-container-8 .grid-item {
 	margin-right: 20px;
 }
+
+.grid-container-8 a {
+	text-decoration: none;
+}
+
 .box {
 	background-color: white; 
 	color: black; 
