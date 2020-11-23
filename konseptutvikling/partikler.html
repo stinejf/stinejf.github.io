@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <title>Partikkel-fest</title>
     <style>
-        body {
-            background-color:#666;
-        }
-
         #canvas {
             background-color:#000;
             margin-left:100px;
         }
     </style>
+	<link rel="stylesheet" href="../resources/css/main.css">
+
 
 </head>
 <body>
+	<div class="scrollmenu">
+  		<a href="index.html">Heim</a>
+  		<a href="teknologi.html">Teknologiforståelse</a>
+		<a href="konseptutvikling.html">Konseptutvikling og programmering</a>
+  		<a href="#contact">YFF</a>
+  		<a href="contact.html">Kontakt meg</a>
+	</div>
+	<h1>Partikkel-fest</h1>
     <canvas id="canvas" width="500" height="500"></canvas>
 	<script>
 		var canvas; 
@@ -80,5 +86,8 @@
 			particle.y += particle.ySpeed; 
 		}
 	</script>
+	<footer>
+		<p>&#169; 2020 Stine Jonassen Føyen </p>
+	</footer>	
 </body>
 </html>
