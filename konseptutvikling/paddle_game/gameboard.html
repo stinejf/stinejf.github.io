@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Paddle Game</title>
+<link rel="stylesheet" href="../../resources/css/main.css">
+</head>
+	<style>
+	canvas {
+		background-color: #eee; 
+	}
+	</style>
+
+<body>
+	
+	<div class="scrollmenu">
+  		<a href="index.html">Heim</a>
+  		<a href="teknologi.html">Teknologiforståelse</a>
+		<a href="konseptutvikling.html">Konseptutvikling og programmering</a>
+  		<a href="#contact">YFF</a>
+  		<a href="contact.html">Kontakt meg</a>
+	</div>
+	<div class="container" style="text-align: center;">
+		<h1>Paddle game</h1>
+		<div id="hiddenText" style="display:none; margin-bottom: 20px;">
+			<h2 id="gametext" style="color: red;"></h2>
+			<button id="start" onClick="document.location.reload();">Start over</button>
+		</div>
+		
+		<canvas id="gameCanvas" width="480" height="320"></canvas>
+	</div>
+	<script src="paddle.js"></script>
+</body>
+</html>
