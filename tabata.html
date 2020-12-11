@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabata timer</title>
+    <link rel="stylesheet" href="resources/css/tabata.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Tabata timer</h1>
+    </div>
+    <div class="container">
+        <div style="text-align: right;">
+            <p id="workouttext"></p>
+        </div>
+        <h1 id="countdown">00:00</h1>
+        <div>
+            <label>Trening - sekunder:</label><input type="text" id="seconds" name="seconds" >
+        </div>
+       
+        <div>
+            <button onclick="start()">Start</button>
+            <button onclick="stopCountdown()">Stopp</button>
+        </div>
+      
+    </div>
+    <script src="resources/js/tabata.js"></script>
+</body>
+</html>
