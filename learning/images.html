@@ -8,10 +8,11 @@
     </head>
     <body >
         <div class="scrollmenu">
-            <a href="index.html">Heim</a>
-            <a href="html.html">HTML</a>
-            <a href="css.html">CSS</a>
-            <a href="js.html">JavaScript</a>
+            <a href="../index.html">Heim</a>
+            <a href="../learning/headings.html">HTML</a>
+            <a href="../teknologi.html">Teknologiforståelse</a>
+            <a href="../konseptutvikling.html">Konseptutvikling og programmering</a>
+            <a href="../contact.html" target="_blank">Kontakt meg</a>
         </div>
         <div class="leftNavigation">
             <h3>Innhold:</h3>
@@ -36,7 +37,7 @@
                 <img src="../resources/images/snowball2.png" alt="Katt" height="100"> 
             </div>
             <p> Attributtene i eit <strong>&lt;img></strong> element er:</p>
-            <table id="imgTable">
+            <table class="imgTable">
                 <tr>
                     <th>Attributt</th>
                     <th>Kva den gjer</th>
@@ -58,6 +59,135 @@
                     <td>Bredden på biletet i piksler </td>
                 </tr>
             </table>
-        </div>      
+            <div style="margin-bottom: 50px; ">
+                <h2>Box Shadow</h2>
+                <div style="display: flex;">
+                    <div  class="image" style="margin-bottom: 50px;">
+                        <img id="boxshadow" src="../resources/images/dog.jpg">
+                    </div>
+                    <div class="code">
+                        <p class="codeText">
+                            &lt;img src="dog.jpg" alt="Hund"> <br><br>
+                            #boxshadow {<br>
+                                height: 200px; <br>
+                                box-shadow: 10px 5px 5px gray; <br>
+                                margin-right: 50px; <br>
+                            }<br>
+                        </p>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="image">
+                        <img id="boxshadowrainbow" src="../resources/images/dog.jpg">
+                    </div>
+                    <div class="code">
+                        <p class="codeText">
+                            &lt;img src="dog.jpg" alt="Hund"> <br><br>
+                            #boxshadow {<br>
+                                height: 200px; <br>
+                                margin-right: 50px; <br>
+                                box-shadow: 4px 2px 0 red, <br>
+                                    8px 4px 0 orange,<br>
+                                    12px 6px 0 yellow,<br>
+                                    16px 8px 0 green, <br>
+                                    20px 10px 0 blue,<br>
+                                    24px 12px 0 indigo, <br>
+                                    28px 14px 0 violet<br>
+                            }<br>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div style="margin-bottom: 100px; ">
+                <h2>Bilde med filter</h2>
+                <div style="display: flex;margin-bottom: 50px;">
+                    <div class="image">
+                        <img id="chickenNoFilter" src="../resources/images/chicken-bird.jpg">
+
+                        <img id="chickenFilter" src="../resources/images/chicken-bird.jpg">
+                    </div>
+                    <div class="code">
+                        <p class="codeText">
+                            &lt;img src="chicken-bird.jpg" alt="Chicken"> <br><br>
+                            #chickenFilter { <br>
+                                height: 200px;  <br>
+                                margin-right: 50px; <br>
+                                filter: invert(100%);<br>
+                            }<br>
+                        </p>
+                    </div>
+                </div>
+
+                <div style="display: flex; " >
+                    <div class="image">
+                        <img id="catNoFilter" src="../resources/images/Cat_Laptop_-_Idil_Keysan_-_Wikimedia_Giphy_stickers_2019.png">
+
+                        <img id="catFilter" src="../resources/images/Cat_Laptop_-_Idil_Keysan_-_Wikimedia_Giphy_stickers_2019.png">
+                    </div>
+                    <div class="code">
+                        <p class="codeText">
+                            &lt;img src="chicken-bird.jpg" alt="Chicken"> <br><br>
+                            #catFilter {<br>
+                                height: 200px;  <br>
+                                margin-right: 50px; <br>
+                                filter: sepia(100%)drop-shadow(-100px -50px 5px black);<br>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <table class="imgTable">
+                    <tr>
+                        <th>EIGENSKAP</th>
+                        <th>FORKLARING</th>
+                    </tr>
+                    <tr>
+                        <td>filter: blur(5px);</td>
+                        <td>Uklart</td>
+                    </tr>
+                    <tr>
+                        <td>filter:brightness(0.4);</td>
+                        <td>Lysstyrke</td>
+                    </tr>
+                    <tr>
+                        <td>filter:contrast(200%);</td>
+                        <td>Kontrast</td>
+                    </tr>
+                    <tr>
+                        <td>filter:drop-shadow(16px 16px 20px blue);</td>
+                        <td>Skygge</td>
+                    </tr>
+                    <tr>
+                        <td>filter:grayscale(50%);</td>
+                        <td>Tek bort fargar</td>
+                    </tr>
+                    <tr>
+                        <td>filter:hue-rotate(90deg);</td>
+                        <td>Endrar fargane</td>
+                    </tr>
+                    <tr>
+                        <td>filter:invert(75%);</td>
+                        <td>Snur fargane</td>
+                    </tr>
+                    <tr>
+                        <td>filter:opacity(25%);</td>
+                        <td>Gjer gjennomsiktig</td>
+                    </tr>
+                    <tr>
+                        <td>filter:saturate(30%);</td>
+                        <td>Styrkjer fargane</td>
+                    </tr>
+                    <tr>
+                        <td>filter:sepia(60%);</td>
+                        <td>Gammaldags</td>
+                    </tr>
+                </table>
+            </div>
+        </div>  
+        <footer>
+
+        </footer>    
     </body>
 </html>

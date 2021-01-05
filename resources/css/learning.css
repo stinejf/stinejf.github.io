@@ -1,12 +1,12 @@
 .leftNavigation {
-    width: 15%; 
+    width: 10%; 
     float:left; 
     min-height: 100%; 
     padding: 0px 20px 20px 20px;
 }
 
 .content {
-    width: 60%; margin-right: 250px; float: left;
+    width: 70%; margin-right: 200px; float: left;
 }
 
 .example {
@@ -20,13 +20,14 @@
     font-family: 'Consolas';
 }
 
-#imgTable th {
+.imgTable th {
     text-align: left;
 }
 
-#imgTable td, th {
+.imgTable td, th {
     padding: 10px;
 }
+.imgTable tr:nth-child(even) {background-color: lightblue;}
 
 .scrollmenu input[type=text] {
     float: right;
@@ -35,4 +36,44 @@
     margin-top: 14px;
     margin-right: 16px;
     font-size: 17px;
+}
+
+.image {
+    width: 50%;
+}
+.code {
+    width: 50%;
+}
+
+#boxshadow {
+	height: 200px; 
+	box-shadow: 10px 5px 5px gray; 
+}
+
+#boxshadowrainbow {
+    height: 200px; 
+	box-shadow: 4px 2px 0 red, 
+		8px 4px 0 orange,
+        12px 6px 0 yellow,
+        16px 8px 0 green, 
+        20px 10px 0 blue,
+        24px 12px 0 indigo, 
+        28px 14px 0 violet
+}
+
+#chickenNoFilter {
+    height: 200px;  
+}
+#chickenFilter {
+    height: 200px;  
+    filter: invert(100%);
+}
+
+#catNoFilter {
+    height: 150px;  
+}
+#catFilter {
+    height:150px;  
+    margin-left: 100px;
+    filter: sepia(100%)drop-shadow(-100px -50px 5px black);
 }
