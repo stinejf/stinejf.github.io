@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="8">
+        <link rel="stylesheet" href="../resources/css/main.css">
+        <link rel="stylesheet" href="../resources/css/learning.css">
+        <title>Bilder</title>
+    </head>
+    <body >
+        <div class="scrollmenu">
+            <a href="../index.html">Heim</a>
+            <a href="../learning/headings.html">HTML</a>
+            <a href="../teknologi.html">Teknologiforståelse</a>
+            <a href="../konseptutvikling.html">Konseptutvikling og programmering</a>
+            <a href="../contact.html" target="_blank">Kontakt meg</a>
+        </div>
+        <div class="leftNavigation">
+            <h3>Innhold:</h3>
+            <h4><a href="../learning/headings.html">Headings</a></h4>
+            <h4><a href="../learning/paragraphs.html">Paragraphs</a></h4>
+            <h4><a href="../learning/links.html">Links</a></h4>
+            <h4><a href="../learning/tables.html">Tabeller</a></h4>
+            <h4><a href="../learning/images.html">Bilder</a></h4>
+        </div>
+        <div class="content">
+            <h1>Bilder</h1>
+            <p>
+               Ein pseudoselektor seier korleis delar av eit HTML-element skal vere. <br>
+               <p class="codeText">
+                &lt;style>  <br>  
+                   selektor::pseudoselektor {<br>  
+                       eigenskap:verdi; <br>  
+
+                   }  <br> 
+                &lt;/style>     
+                </p>     
+            </p>
+           
+            <div class="example">
+                <h3>Eksempel:</h3> 
+                <p class="codeText">
+                    p::first-letter { <br>
+                        font-size: 25px;<br>
+                    }<br>
+                </p>
+                <h5>Resultat:</h5> 
+                <p id="paragraphExample">I dag las eg ein artikkel i avisa der leiaren for ein ...</p>
+            </div>
+
+            <div class="example">
+                <h3>Eksempel:</h3> 
+                <p class="codeText">
+                    p::first-letter { <br>
+                        font-size: 25px;<br>
+                    }<br>
+                    p::first-line {<br>
+                        color: darkorange;<br>
+                    }<br>
+                    p::selection {<br>
+                        color: white; <br>
+                        background-color: blue; <br>
+                    }<br>
+                    q::before {<br>
+                        content: "''";   <br>                      
+                    }<br>
+                    q::after {<br>
+                        content: "''"; <br>
+                    }
+                    <br>
+                </p>
+                
+            </div>
+            <h5>Resultat:</h5> 
+                <p id="paragraphExample2">I dag las eg ein artikkel i avisa der leiaren for ein <br>
+                    naturvernsorganisasjon skriv <q>Korallreva døyr</q> <br>
+                Det var skremmande lesing.</p>
+        </div>
+        <footer>
+
+        </footer>    
+    </body>
+</html>

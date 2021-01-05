@@ -77,3 +77,24 @@
     margin-left: 100px;
     filter: sepia(100%)drop-shadow(-100px -50px 5px black);
 }
+
+#paragraphExample2::first-letter {
+    font-size: 25px; 
+}
+
+#paragraphExample2::first-letter { 
+    font-size: 25px;
+}
+#paragraphExample2::first-line {
+    color: darkorange;
+}
+#paragraphExample2::selection {
+    color: white; 
+    background-color: blue; 
+}
+#paragraphExample2 q::before {
+    content: "''";                         
+}
+#paragraphExample2 q::after {
+    content: "''";
+}
