@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pseudoselektor</title>
+        <style>
+           p::first-letter {
+               font-size: 42px; 
+           }
+           p::first-line {
+               color: darkorange; 
+           }
+           p::selection {
+               background-color: blue;
+               color: white; 
+           }
+           q::before {
+               content: "''"; 
+           }
+           q::after {
+                content: "''"; 
+           }
+        </style>
+    </head>
+    <body>
+       <p>I dag las eg ein artikkel i avisa der leiaren for ein<br> naturvernsorganisasjon skriv <q>Korallreva døyr</q>.<br>
+       Det var skremmande lesing.</p>
+    </body>
+</html>
