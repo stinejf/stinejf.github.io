@@ -1,0 +1,38 @@
+.leftNavigation {
+    width: 15%; 
+    float:left; 
+    min-height: 100%; 
+    padding: 0px 20px 20px 20px;
+}
+
+.content {
+    width: 60%; margin-right: 250px; float: left;
+}
+
+.example {
+    background-color: darkseagreen; 
+    border: 1px solid; 
+    padding: 0px 20px 20px 20px; 
+    margin-bottom: 20px;
+}
+
+.codeText {
+    font-family: 'Consolas';
+}
+
+#imgTable th {
+    text-align: left;
+}
+
+#imgTable td, th {
+    padding: 10px;
+}
+
+.scrollmenu input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 14px;
+    margin-right: 16px;
+    font-size: 17px;
+}

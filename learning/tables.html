@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="8">
+        <link rel="stylesheet" href="../resources/css/main.css">
+        <link rel="stylesheet" href="../resources/css/learning.css">
+        <title>Paragraphs</title>
+    </head>
+    <body>
+        <div class="scrollmenu">
+            <a href="index.html">Heim</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="js.html">JavaScript</a>
+            <input type="text" placeholder="Search..">
+        </div>
+        <div class="leftNavigation">
+            <h3>Innhold:</h3>
+            <h4><a href="../learning/headings.html">Headings</a></h4>
+            <h4><a href="../learning/paragraphs.html">Paragraphs</a></h4>
+            <h4><a href="../learning/links.html">Links</a></h4>
+            <h4><a href="../learning/tables.html">Tabeller</a></h4>
+            <h4><a href="../learning/images.html">Bilder</a></h4>
+        </div>
+        <div class="content">
+            <h1>Tabeller</h1>
+            Tabellar i HTML, bruker taggen  &lt;table>. Denne taggen seier at "alt det som er inni her er ein tabell"<br>
+            <ul>
+                <li>&lt;tr> betyr table-row. Og representerer ei rad i ein tabell.</li>
+                <li>&lt;th> betyr table-header. Denne representerer overskrifta i ein tabell. Og har ein innebygd styling som gjer at den ser annelis ut enn vanleg tabelldata. </li>
+                <li>&lt;td> betyr table-data, Denne representerer det som er inni sjølve cella i tabellen.</li>
+            </ul>
+            <p>
+                Kvar rad i ein tabell må begynne med  &lt;tr> taggen. <br>
+                Tabellen under har til dømes to rader (to  &lt;tr> tagger)<br>
+                Den første raden inneholder overskriftene,  &lt;th> i tabellen. <br>
+                Den andre raden inneholder det som er i tabellen  &lt;td>. <br>
+            </p>              
+            <div class="example">
+                <h3>Eksempel: </h3>
+                <pre class="codeText">        
+&lt;table>
+    &lt;tr>
+        &lt;th> Overskrift 1 &lt;/th>
+        &lt;th> Overskrift 2 &lt;/th>
+    &lt;/tr>
+    &lt;tr>
+        &lt;td> Element 1a &lt;/td>
+        &lt;td> Element 1b &lt;/td>
+    &lt;/tr>
+&lt;/table><br>
+                </pre>
+                <h5>Resultat:</h5> 
+                <table>
+                    <tr>
+                         <th> Overskrift 1 </th>
+                         <th> Overskrift 2 </th>
+                    </tr>
+                    <tr>
+                         <td> Element 1a </td>
+                         <td> Element 1b </td>
+                    </tr>
+               </table>
+            </div>
+        </div>      
+    </body>
+</html>
