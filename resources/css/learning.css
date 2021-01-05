@@ -98,3 +98,7 @@
 #paragraphExample2 q::after {
     content: "''";
 }
+
+#dog {
+    filter:hue-rotate(90deg); 
+}
