@@ -1,0 +1,17 @@
+#chicken {
+    height: 300px; 
+    box-shadow: 20px 10px 20px gray;
+}
+
+a:hover {
+    background-color: green; 
+}
+
+#chicken:active {
+    height: 100px;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue; 
+}
+
