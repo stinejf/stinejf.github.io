@@ -52,22 +52,20 @@ div.scrollmenu a:hover {
 }
 
 .container-8 {
-background-color: white;
-  padding: 20px;
+	background-color: white;
+  	padding: 20px;
 	margin-right: 20px; 
 
 }
 
 .container-4 {
 	background-color: white;
-  padding: 20px;
-	
-	
+	padding: 20px;	
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
+  	display: grid;
+  	grid-template-columns: auto auto;
 	margin-top: 20px; 
 }
 
@@ -88,12 +86,8 @@ background-color: white;
 .box {
 	background-color: white; 
 	color: black; 
-	width: 32%; 
 	height: auto;   
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-top: 10px; 
-	margin-right:20px;
+	width:100%;
 	font-size: 1.5em; 
 	border-bottom: #E5E5E5 thick solid; 
 	border-right: #E5E5E5 thick solid; 

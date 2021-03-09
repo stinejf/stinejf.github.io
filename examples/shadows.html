@@ -6,9 +6,89 @@
         <link rel="stylesheet" href="../resources/css/learning.css">
     </head>
     <body>
-        <div style="margin: 50px;">
-            <img id="dog" src="../resources/images/dog.jpg">
+        <div class="topnav">
+            <a href="index.html">
+                <img id="logo" src="../resources/images/Cat_Laptop_-_Idil_Keysan_-_Wikimedia_Giphy_stickers_2019.png">
+            </a>
+            <a class="active" href="shadows.html">Heim</a>
+            <a href="../">Teknologiforståelse</a>
+            <a href="pseudoselektor.html">Pseudoselekter</a> 
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <img id="dog" src="../resources/images/dog.jpg">
+            </div>
+            <div class="grid-item">
+                <table class="imgTable">
+                    <tr>
+                        <th>EIGENSKAP</th>
+                        <th>FORKLARING</th>
+                    </tr>
+                    <tr>
+                        <td>filter: blur(5px);</td>
+                        <td>Uklart</td>
+                    </tr>
+                    <tr>
+                        <td>filter:brightness(0.4);</td>
+                        <td>Lysstyrke</td>
+                    </tr>
+                    <tr>
+                        <td>filter:contrast(200%);</td>
+                        <td>Kontrast</td>
+                    </tr>
+                    <tr>
+                        <td>filter:drop-shadow(16px 16px 20px blue);</td>
+                        <td>Skygge</td>
+                    </tr>
+                    <tr>
+                        <td>filter:grayscale(50%);</td>
+                        <td>Tek bort fargar</td>
+                    </tr>
+                    <tr>
+                        <td>filter:hue-rotate(90deg);</td>
+                        <td>Endrar fargane</td>
+                    </tr>
+                    <tr>
+                        <td>filter:invert(75%);</td>
+                        <td>Snur fargane</td>
+                    </tr>
+                    <tr>
+                        <td>filter:opacity(25%);</td>
+                        <td>Gjer gjennomsiktig</td>
+                    </tr>
+                    <tr>
+                        <td>filter:saturate(30%);</td>
+                        <td>Styrkjer fargane</td>
+                    </tr>
+                    <tr>
+                        <td>filter:sepia(60%);</td>
+                        <td>Gammaldags</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="grid-item">
+                <div>
+                    <a href="teknologi.html">
+                        <div class="box">
+                            Teknologiforståelse 
+                        </div>
+                    </a>
+                    <a href="konseptutvikling.html">
+                        <div class="box">
+                            Konseptutikling og programmering
+                        </div>
+                    </a>
+                    <a href="yff.html">
+                        <div class="box" style="margin-right: 0px;">
+                            YFF
+                        </div>
+                    </a>
+                </div> 
+            </div>
         </div>
     </body>
-    <footer></footer>
+    <footer>
+		<p>&#169; 2020 Stine Jonassen Føyen </p>
+	</footer>	
 </html>

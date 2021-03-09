@@ -5,8 +5,6 @@
 	<title>Heim</title>
 	<link rel="stylesheet" href="resources/css/index.css">
 	<link rel="stylesheet" href="resources/css/main.css">
-<script src="resources/js/myscript.js"></script>
-
 </head>
 
 <body>
@@ -16,43 +14,63 @@
 		<a href="teknologi.html">Teknologiforståelse</a>
 		<a href="konseptutvikling.html">Konseptutvikling og programmering</a>
 		<a href="contact.html" target="_blank">Kontakt meg</a>
+		<div id="clock"></div>
 	</div>
 	<main style="min-height: 500px;">
-		<div class="container">
-			<h1>Velkommen</h1>
-			<p>	Her vil du finne litt forskjellig informasjon om fagene på linja Informasjonsteknologi og 		medieproduksjon. <br>
-				Eg kjem også til å legge ut oppgåver og løysningsforslag etterkvart. <br>
-				Under faget "Konseptutikling og programmering", vil de finne ulike typar spel og program i bla JavaScript.		
-			</p>
+
+		<div class="grid-container">
+			<div class="kol12">
+				<div class="container">
+					<h1 id="header"></h1>
+					<p>	Her vil du finne litt forskjellig informasjon om fagene på linja Informasjonsteknologi og 		medieproduksjon. <br>
+						Eg kjem også til å legge ut oppgåver og løysningsforslag etterkvart. <br>
+						Under faget "Konseptutikling og programmering", vil de finne ulike typar spel og program i bla JavaScript.		
+					</p>
+				</div>
+			</div>
+			<div class="kol4">
+				<a href="teknologi.html">
+					<div class="box">
+						Teknologiforståelse 
+					</div>
+				</a>
+			</div>
+			<div class="kol4">
+				<a href="konseptutvikling.html">
+					<div class="box">
+						Konseptutikling og programmering
+					</div>
+				</a>
+			</div>
+			<div class="kol4">
+				<a href="yff.html">
+					<div class="box" style="margin-right: 0px;">
+						YFF
+					</div>
+				</a>
+			</div>
 		</div>
-		<div>
-			<a href="teknologi.html">
-				<div class="box">
-					Teknologiforståelse 
-				</div>
-			</a>
-			<a href="konseptutvikling.html">
-				<div class="box">
-					Konseptutikling og programmering
-				</div>
-			</a>
-			<a href="yff.html">
-				<div class="box" style="margin-right: 0px;">
-					YFF
-				</div>
-			</a>
-		</div> 
-		
 	</main>
+
+	<div>
+		<h3 id="welcome">Velkommen</h3>
+		<button type="button" onclick="button_clicked()">
+			Klikk meg
+		</button>
+	</div>
+	
+
 	<footer>
 		<p>&#169; 2020 Stine Jonassen Føyen </p>
-	</footer>	
+	</footer>
+
 	<script>
-		var i = 1; 
-		while(i<11) {
-			console.log(i); 
-			i++;
+		function button_clicked() {
+			var welcome = document.getElementById("welcome"); 
+			welcome.innerText = "Knappen er trykket på.";
 		}
 	</script>
+
+	<script src="resources/js/konseptutvikling.js"></script>	
 </body>
 </html>
