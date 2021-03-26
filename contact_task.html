@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="resources/css/task.css">
+        <title>Kontakt</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="#home">Heim</a>
+            <a href="#news">Om meg</a>
+            <div class="dropdown">
+              <button class="dropbtn">Fag 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Konseptutvikling og programmering</a>
+                <a href="#">Teknologiforståelse</a>
+                <a href="#">Produksjon og historiefortelling</a>
+                <a href="#">YFF</a>
+              </div>
+            </div> 
+            <a href="contact_task.html">Kontakt meg</a>
+          </div>
+          <div class="container">
+            <h1>
+                Kontaktskjema 
+            </h1>
+          </div>
+     
+          <div class="container"> 
+            <form action="task.html">
+                <label>Fornavn:<span class="required">*</span></label><br>
+                <input type="text" name="fname" id="fname" required><br><br>
+                <label>Etternavn:<span class="required">*</span></label><br>
+                <input type="text" name="lname" id="lname" required><br><br>
+                <label>E-postadresse:<span class="required">*</span></label><br>
+                <input type="email" name="email" id="email" required><br><br>
+                <label>Telefonnr:<span class="required">*</span></label><br>
+                <input type="number" name="number" id="number" required><br><br>
+
+                <h2>Min henvendelse</h2>
+                <label>Emne: <span class="required">*</span></label><br>
+                <input type="text" name="subject" id="subject" required><br><br>
+                <label>Melding:<span class="required">*</span></label><br>
+                <textarea name="message" id="message" rows="10" cols="50" required></textarea><br><br>
+                <button type="submit">Send inn</button>
+            </form>
+          </div>
+    </body>
+</html>

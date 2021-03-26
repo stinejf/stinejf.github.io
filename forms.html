@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms example</title>
+        <link rel="stylesheet" href="resources/css/forms.css">
+    </head>
+    <body>
+        <h1 id="header">Skjema</h1>
+        <h1></h1>
+        <form>
+            <label>Fornavn: </label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label>Etternavn: </label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label>Fødselsdato: </label><br>
+            <input type="date" id="bdate" name="bdate"><br><br>
+            <label>Favorittfarge: </label><br>
+            <select name="fcolor" id="fcolor">
+                <option value="blue">Blå</option>
+                <option value="green">Grønn</option>
+                <option value="yellow">Gul</option>
+                <option value="red">Rød</option>
+                <option value="pink">Rosa</option>
+                <option value="black">Svart</option>
+                <option value="purple">Lilla</option>
+            </select><br><br>
+            <input type="button" onclick="changeColor()" value="Endre farge">
+        </form>
+        <script src="resources/js/forms.js"></script>
+</html>

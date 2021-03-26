@@ -27,6 +27,7 @@ li {
 line-height: 1.5; 
 }
 
+/* Start Top navigation */
 div.scrollmenu {
   background-color: #003333;
   overflow: auto;
@@ -44,6 +45,8 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #013b3b;
 }
+
+/* End Top navigation */
 
 .container {
 	background-color: #FFFFFF; 
