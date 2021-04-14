@@ -3,11 +3,26 @@
     <head>
         <meta charset="utf-8">
         <title>Forms example</title>
-        <link rel="stylesheet" href="resources/css/forms.css">
+        <link rel="stylesheet" href="resources/css/index.css">
     </head>
     <body>
         <h1 id="header">Skjema</h1>
         <h1></h1>
+
+        <form action="action.html"> 
+
+            <label>First name:</label><br> 
+          
+            <input type="text" id="fname" name="fname"><br> 
+          
+            <label>Last name:</label><br> 
+          
+            <input type="text" id="lname" name="lname"><br><br> 
+          
+            <input type="submit" value="Submit"> 
+          
+          </form> 
+
         <form>
             <label>Fornavn: </label><br>
             <input type="text" id="fname" name="fname"><br><br>
@@ -15,7 +30,7 @@
             <input type="text" id="lname" name="lname"><br><br>
             <label>Fødselsdato: </label><br>
             <input type="date" id="bdate" name="bdate"><br><br>
-            <label>Favorittfarge: </label><br>
+            <label>Skriftfarge: </label><br>
             <select name="fcolor" id="fcolor">
                 <option value="blue">Blå</option>
                 <option value="green">Grønn</option>
@@ -25,7 +40,34 @@
                 <option value="black">Svart</option>
                 <option value="purple">Lilla</option>
             </select><br><br>
-            <input type="button" onclick="changeColor()" value="Endre farge">
+            <input type="button" onclick="changeColor()" value="Endre skriftfarge">
+            <br><br>
+            <label>Bakgrunnsfarge: </label><br>
+            <select name="bcolor" id="bcolor">
+                <option value="blue">Blå</option>
+                <option value="green">Grønn</option>
+                <option value="yellow">Gul</option>
+                <option value="red">Rød</option>
+                <option value="pink">Rosa</option>
+                <option value="black">Svart</option>
+                <option value="purple">Lilla</option>
+            </select><br><br>
+            <input type="button" onclick="changeBackgroundColor()" value="Endre bakgrunnsfarge">
         </form>
+
+        <form> 
+            <label>Bakgrunnsfarge: </label><br> 
+            <select name="bcolor" id="bcolor"> 
+                <option value="blue">Blå</option> 
+                <option value="green">Grønn</option> 
+                <option value="yellow">Gul</option> 
+                <option value="red">Rød</option> 
+                <option value="pink">Pink</option> 
+                <option value="black">Svart</option> 
+                <option value="purple">Lilla</option> 
+            </select><br><br> 
+            <input type="button" onclick="changeBackgroundColor()" value="Endre bakgrunnsfarge"> <br><br> 
+        </form> 
+            <script src="resources/js/forms.js"></script>
         <script src="resources/js/forms.js"></script>
 </html>
