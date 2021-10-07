@@ -2,32 +2,134 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Heim</title>
+	<link href="resources/css/bootstrap/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="resources/css/index.css">
 	<link rel="stylesheet" href="resources/css/main.css">
+
 </head>
 
 <body>
-	<div class="scrollmenu">
-		<a href="index.html">Heim</a>
-		<a href="learning/headings.html">HTML</a>
-		<a href="teknologi.html">Teknologiforståelse</a>
-		<a href="konseptutvikling.html">Konseptutvikling og programmering</a>
-		<a href="contact.html" target="_blank">Kontakt meg</a>
-		<div id="clock"></div>
-	</div>
-	<main style="min-height: 500px;">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">IM-SVGS</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="index.html">Heim</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Fag
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <li><a class="dropdown-item" href="konseptutvikling.html">Konseptutvikling og programmering</a></li>
+				  <li><a class="dropdown-item" href="teknologi.html">Teknologiforståelse</a></li>
+				  <li><a class="dropdown-item" href="produksjon.html">Produksjon og historieforteljing</a></li>
+				  <li><a class="dropdown-item" href="yff.html">YFF</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="https://www.hordaland.no/nn-NO/skole/stordvgs/studietilbud/informasjonsteknologi-og-medieproduksjon/" target="_blank">Om oss</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="contact.html">Kontakt oss</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	<main>
 
-		<div class="grid-container">
-			<div class="kol12">
-				<div class="container">
-					<h1 id="header"></h1>
-					<p>	Her vil du finne litt forskjellig informasjon om fagene på linja Informasjonsteknologi og 		medieproduksjon. <br>
-						Eg kjem også til å legge ut oppgåver og løysningsforslag etterkvart. <br>
-						Under faget "Konseptutikling og programmering", vil de finne ulike typar spel og program i bla JavaScript.		
-					</p>
+		<div style="background-image: url('resources/images/technology-4750253_1920.jpg');" class="jumbotron jumbotron-fluid">
+			<div class="container" id="jumboheader">
+			  <h1 class="display-4">Informasjonsteknologi og medieproduksjon</h1>
+			  <p class="lead">Stord vidaregåande skule</p>
+			</div>
+		</div>	
+		</div>
+		<div class="container-sm">
+			<div class="row">
+				<div class="col">
+				
 				</div>
 			</div>
+			<div class="row justify-content-md-center" style="margin-top:20px;">
+				<h3 class="header1">Kva me gjer på</h3>
+			</div>
+		
+			<div class="row justify-content-md-center">
+				<div class="col">
+					<div class="card" style="width: 18rem;">
+						<img src="resources/images/podcast-3696504_1920.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title">Podcast</h5>
+						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 18rem;">
+						<img src="resources/images/technology-5348128_1920.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title">Maskinvare</h5>
+						</div>
+					  </div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 18rem;">
+						<img src="resources/images/11123530043_1d28f2fa35_o.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title">Virtualisering</h5>
+						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					  </div>
+				</div>				
+			</div>
+			<div class="row justify-content-md-center" style="margin-top:20px;"> 
+				<div class="col">
+					<div class="card" style="width: 18rem;">
+						<img src="resources/images/podcast-3696504_1920.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title">Podcast</h5>
+						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 18rem;">
+						<img src="resources/images/technology-5348128_1920.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title">Maskinvare</h5>
+						</div>
+					  </div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 18rem;">
+						<img src="resources/images/11123530043_1d28f2fa35_o.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title">Virtualisering</h5>
+						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					  </div>
+				</div>	
+
+				<h2 class="header1" style="margin-top: 20px;">Filmintroduksjon:</h2>
+				<div>
+					<video width="640" height="480" controls>
+						<source src="resources/IM-INTRO-v3.mp4" type="video/mp4">
+					  Your browser does not support the video tag.
+					  </video>
+				</div>				
+			</div>
+	
+			<!--
+
+			
 			<div class="kol4">
 				<a href="teknologi.html">
 					<div class="box">
@@ -49,29 +151,27 @@
 					</div>
 				</a>
 			</div>
+			-->
 		</div>
 	</main>
-
-	<div>
+<!--
+<div>
 		<h3 id="welcome">Velkommen</h3>
 		<button type="button" onclick="button_clicked()">
 			Klikk meg
 		</button>
 	</div>
+-->
 	
+	<form>
+		<label>Fornavn</label>
 
+	</form>
+	
 	<footer>
-		<p>&#169; 2020 Stine Jonassen Føyen </p>
+		<p>&#169; 2021 Stine Jonassen Føyen </p>
 	</footer>
 
-	<script>
-		function button_clicked() {
-			var welcome = document.getElementById("welcome"); 
-			welcome.innerText = "Knappen er trykket på.";
-		}
-	</script>
-
-	<!--<script src="resources/js/konseptutvikling.js"></script>	-->
-	<script src="resources/js/arrays.js"></script>
+	<script type="text/javascript" src="resources/js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

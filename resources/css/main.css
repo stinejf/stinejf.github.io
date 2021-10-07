@@ -1,113 +1,46 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1, h2, h3, h4, p, a, div, a h4 {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;   
-}
-
 body {
 	background-color: #f4f4f2;
+	margin:0px;
+}
+
+.container-sm {
+    max-width: 950px;
 }
 
 footer {
-	background-color: #353533; 
-	width:100%; 
-	height: 200px; 
-	text-align: center; 
-	color:white;
-	display: inline-block;
-	vertical-align: bottom;
+	height: 150px; 
+    background-color: rgb(107, 139, 139);
+    position:initial;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center; 
+	margin-top:50px;
 }
+
+
+
 
 footer p {
 	padding:40px;
 }
 
-li { 
-line-height: 1.5; 
+.header1 {
+    background-color: rgb(47, 79, 79);
+    padding: 10px 20px 10px 20px;
+    color: white;
 }
 
-/* Start Top navigation */
-div.scrollmenu {
-  background-color: #003333;
-  overflow: auto;
-  white-space: nowrap;
+#jumboheader {
+    color:white;
+    padding: 20px; 
 }
 
-div.scrollmenu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-}
-
-div.scrollmenu a:hover {
-  background-color: #013b3b;
-}
-
-/* End Top navigation */
-
-.container {
-	background-color: #FFFFFF; 
-	padding: 20px; 
-	margin-top: 10px; 
-}
-
-.container-8 {
-	background-color: white;
-  	padding: 20px;
-	margin-right: 20px; 
-
-}
-
-.container-4 {
-	background-color: white;
-	padding: 20px;	
-}
-
-.grid-container {
-  	display: grid;
-  	grid-template-columns: auto auto;
-	margin-top: 20px; 
-}
-
-.grid-container-8 {
-	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
-	  margin-top: 20px; 
-  }
-	
-.grid-container-8 .grid-item {
-	margin-right: 20px;
-}
-
-.grid-container-8 a {
-	text-decoration: none;
-}
-
-.box {
-	background-color: white; 
-	color: black; 
-	height: auto;   
-	width:100%;
-	font-size: 1.5em; 
-	border-bottom: #E5E5E5 thick solid; 
-	border-right: #E5E5E5 thick solid; 
-	float: left;
-	text-align: center; 
-}
-
-.headercontainer {
-	margin: 0px; 
-	margin-right:20px; 
-	padding-top:20px; 
-	padding-bottom:20px; 
-	padding-left:20px; 
-	background-color:#015252; 
-	color:white;
-}
-
-hr {
-	border-top:1px solid #013b3b;
+.carousel-item img {
+    max-height: 350px;
+    width: auto;
 }

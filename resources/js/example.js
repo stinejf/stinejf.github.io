@@ -16,9 +16,9 @@ else {
 }
 
 
+var text = prompt("Skriv inn et tall"); 
 
-
-
+alert(text);
 
 
 

@@ -1,58 +1,74 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-		<link rel="stylesheet" href="resources/css/main.css">
-<title>Konseptutvikling og programmering</title>
+	<meta charset="utf-8">
+	<link href="resources/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="resources/css/main.css">
+	<title>Konseptutvikling og programmering</title>
 </head>
 
 <body>
-	<div class="scrollmenu">
-  		<a href="index.html">Heim</a>
-  		<a href="teknologi.html">Teknologiforståelse</a>
-		<a href="konseptutvikling.html">Konseptutvikling og programmering</a>
-  		<a href="#contact">YFF</a>
-  		<a href="contact.html">Kontakt meg</a>
-	</div>
-	<div class="container">
-		<h1>Konseptutvikling og programmering</h1>
-		<img src="resources/images/snowball2.png" id="snowball" height="200px">
-	<div class="grid-container-8">
-	
-	</div>
-</div>
-<div class="grid-container">
-	<div>
-	<div>
-		<h2 class="headercontainer">Emner i faget:</h2>			
-
-	</div>
-	<div class="container-8" style="border: 1px solid rgb(229, 228, 225); color: #353533;">
-		<h1 id="webutvikling">Webutvikling</h1>
-		<p>World Wide Web er i dag en sentral kommunikasjonsflate for oss. Åpne oppmerkingsspråk og uttalige verktøy gir oss fleksibilitet til å lage tilpassede og unike nettsider og tjenester. Felles standarder sikrer at nettsidene og innholdet er lett tilgjengelig for alle i verden med nettilgang.
-			</p>
-		<h1>Regelverk og etikk</h1>
-		<p>Vi som arbeider innen IT eller media, må være profesjonelle og følge gjeldende lovverk og bransjens etiske normer. Vi har våre egne rettigheter, men også plikter vi må følge. Det er mye å holde orden på. Heldigvis er det mange tilgjengelige ressurser som kan hjelpe oss å forstå lovverket og normene.</p>
-		<h1>Brukerstøtte</h1>
-		<p>Brukerstøtte fokuserer ofte på IT, men kan også omfatte annen støtte ansatte eller brukere trenger for å kunne utføre arbeidsoppgavene sine. De fleste bedrifter har en brukerstøtte. Avhengig av størrelsen på bedriften vil brukerstøtten settes opp på forskjellige måter og driftes forskjellig.
-		</p>
-		<h1>Programmering</h1>
-		<p>Datasystemer gir oss uante muligheter, men de må instrueres slik at de gjør det vi vil de skal gjøre. Kunnskap om programmering lar deg ta styringen over systemene så de gjør oppgavene du ønsker.
-		</p>
-		<h1>Dokumentasjon</h1>
-		<p>Å huske detaljer er ofte vanskeligere enn vi tror, spesielt når det har gått litt tid. Dokumentasjon handler om å beskrive hva du har gjort, og hva du planlegger. Spesielt viktig er dette når vi jobber for andre eller jobber i team eller prosjekter.
-		</p>
-		<p style="text-align: right; font-style: italic;">Kilder: <a href="https://ndla.no/subjects/subject:f248e20c-3131-495e-a759-c71678430d5f/topic:0cf1272e-a133-403b-89d2-082246cafc7a/?filters=urn:filter:81b3892a-78e7-4e43-bc31-fd5f8a5090e7">NDLA.no</a></p>
-	</div>
-</div>
-	<div >
-		<div>
-			<h2 class="headercontainer">Kompetansemål</h2>
-
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">IM-SVGS</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+		  	</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="index.html">Heim</a>
+			  	</li>
+			  	<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Fag
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <li><a class="dropdown-item" href="konseptutvikling.html">Konseptutvikling og programmering</a></li>
+				  <li><a class="dropdown-item" href="teknologi.html">Teknologiforståelse</a></li>
+				  <li><a class="dropdown-item" href="produksjon.html">Produksjon og historieforteljing</a></li>
+				  <li><a class="dropdown-item" href="yff.html">YFF</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="https://www.hordaland.no/nn-NO/skole/stordvgs/studietilbud/informasjonsteknologi-og-medieproduksjon/" target="_blank">Om oss</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="contact.html">Kontakt oss</a>
+			  </li>
+			</ul>
+		  </div>
 		</div>
-		<div class="container-4" style=" border: 1px solid rgb(229, 228, 225); color:#353533; ">
-
-				<h3>Mål for opplæringen er at eleven skal kunne </h3>
+	</nav>
+	  
+	<div style="background-image: url('resources/images/technology-4750253_1920.jpg');" class="jumbotron jumbotron-fluid">
+		<div class="container" id="jumboheader">
+			<h1 class="display-4">Konseptutikling og programmering</h1>
+		</div>
+	</div>	
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="header1">Emner i faget:</h2>						
+				<h3 id="webutvikling">Webutvikling</h3>
+				<p>World Wide Web er i dag en sentral kommunikasjonsflate for oss. Åpne oppmerkingsspråk og uttalige verktøy gir oss fleksibilitet til å lage tilpassede og unike nettsider og tjenester. Felles standarder sikrer at nettsidene og innholdet er lett tilgjengelig for alle i verden med nettilgang.
+					</p>
+				<h3>Regelverk og etikk</h3>
+				<p>Vi som arbeider innen IT eller media, må være profesjonelle og følge gjeldende lovverk og bransjens etiske normer. Vi har våre egne rettigheter, men også plikter vi må følge. Det er mye å holde orden på. Heldigvis er det mange tilgjengelige ressurser som kan hjelpe oss å forstå lovverket og normene.</p>
+				<h3>Brukerstøtte</h3>
+				<p>Brukerstøtte fokuserer ofte på IT, men kan også omfatte annen støtte ansatte eller brukere trenger for å kunne utføre arbeidsoppgavene sine. De fleste bedrifter har en brukerstøtte. Avhengig av størrelsen på bedriften vil brukerstøtten settes opp på forskjellige måter og driftes forskjellig.
+				</p>
+				<h3>Programmering</h3>
+				<p>Datasystemer gir oss uante muligheter, men de må instrueres slik at de gjør det vi vil de skal gjøre. Kunnskap om programmering lar deg ta styringen over systemene så de gjør oppgavene du ønsker.
+				</p>
+				<h3>Dokumentasjon</h3>
+				<p>Å huske detaljer er ofte vanskeligere enn vi tror, spesielt når det har gått litt tid. Dokumentasjon handler om å beskrive hva du har gjort, og hva du planlegger. Spesielt viktig er dette når vi jobber for andre eller jobber i team eller prosjekter.
+				</p>
+				<p style="text-align: right; font-style: italic;">Kilder: <a href="https://ndla.no/subjects/subject:f248e20c-3131-495e-a759-c71678430d5f/topic:0cf1272e-a133-403b-89d2-082246cafc7a/?filters=urn:filter:81b3892a-78e7-4e43-bc31-fd5f8a5090e7">NDLA.no</a></p>
+			</div>
+	
+			<div class="col">
+				<h2 class="header1">Kompetansemål</h2>
 				<ul>
 					<li> anvende regelverk for bruk og formidling av innhold <br>i egen produksjon og reflektere over ansvar og etikk knyttet til <br>bruk og formidling av innhold i egen produksjon</li>
 					<hr>						
@@ -78,26 +94,12 @@
 					<hr>		
 					<li>vurdere, anbefale og kvalitetssikre tiltak som <br> reduserer risiko for uønsket spredning av data</li>
 				</ul>
+			</div>
 		</div>
-		
 	</div>
-</div>
 	<footer>
-		<p>&#169; 2020 Stine Jonassen Føyen </p>
+		<p>&#169; 2021 Stine Jonassen Føyen </p>
 	</footer>
-	<script>
-	var snowball = document.getElementById("snowball");
-	console.log(snowball);
-	snowball.animate([
-		{transform: "rotate(0deg)", marginLeft:"10px"},
-		{transform: "rotate(360deg)", marginLeft: "500px"}
-	], {
-		duration: 10000,
-		direction: "alternate",
-		iterations: Infinity,
-		easing: "ease-in-out"
-	}); 
-	
-	</script>
+	<script type="text/javascript" src="resources/js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

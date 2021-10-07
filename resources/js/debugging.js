@@ -13,10 +13,14 @@ var tall = 10;
 // OPPGÅVE 1 c 
 
 
+if (tall is 0) {
+    console.log("hei")
+}
 
 
-
-
+for (i = 0; i < 10; i++) {
+    tall = i;  
+}
 
 
 
