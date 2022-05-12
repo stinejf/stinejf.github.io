@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <style>
+        body {
+            background-color: #efefef;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: darkblue;
+            border: 1px solid gray;
+        }
+    
+
+          .menu a {
+            padding-right: 20px;
+            color: white;
+        }
+        .quiz div {
+            margin-bottom: 20px;
+        }
+
+        .quiz div label {
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+    <body>
+        <div class="menu" style="display: flow-root; padding: 30px; background-color: darkslategrey;">
+                
+            <div style="float: right;">
+                <a href="#">Heim</a>
+                <a href="#">Logg inn</a>
+            </div>
+            
+        </div>
+        <h1>Veien til førarkortet</h1>
+        
+        
+        <h2>Test deg sjølv</h2>
+            <form class="quiz">
+                <div>
+                    <label>Kor gammal må du vere for å ta mopedlappen? </label> <br>
+                    <input type="radio" value="16" name="15"> 15 år<br>
+                    <input type="radio" value="16" name="15"> 16 år<br>
+                    <input type="radio" value="16" name="15"> 17 år<br>
+
+                </div>
+                
+                <div>
+                    <label>
+                        Kor gammal må du vere for å ta billappen?
+                    </label><br>
+                    <input type="radio" value="16" name="billappen?"> 16 år<br>
+                    <input type="radio" value="16" name="billappen"> 18 år<br>
+                    <input type="radio" value="16" name="billappen"> 20 år<br>
+                </div>
+                <div>
+                    <label>
+                    Kva er maks slagvolum på ein lett motorsykkel? 
+                    </label><br>
+                    <input type="radio" value="16" name="slagvolum"> 125 cm3<br>
+                    <input type="radio" value="16" name="slagvolum"> 250 cm3<br>
+                    <input type="radio" value="16" name="slagvolum"> 500 cm3<br>
+                </div>
+                <div>
+                    <label>
+                    Kva står B for i førarkortet? 
+                    </label><br>
+                    <input type="radio" value="16" name="moped"> Moped<br>
+                    <input type="radio" value="16" name="moped"> Lastebil<br>
+                    <input type="radio" value="16" name="moped"> Personbil<br>
+                </div>
+                <div>
+                    <button>Sjekk svar</button>
+                </div>
+                <div>
+                    <h3>Du hadde rett på 4/4 svar!</h3>
+                </div>
+            </form>
+    </body>
+</html>
